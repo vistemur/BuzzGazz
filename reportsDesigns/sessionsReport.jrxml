@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sessionsReport" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ed0d3343-36db-4d2d-9d08-0a85be32d0db">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="30"/>
+	<queryString language="xPath">
+		<![CDATA[/sessions/session]]>
+	</queryString>
+	<field name="film" class="java.lang.String">
+		<fieldDescription><![CDATA[@film]]></fieldDescription>
+	</field>
+	<field name="time" class="java.lang.String">
+		<fieldDescription><![CDATA[@time]]></fieldDescription>
+	</field>
+	<field name="date" class="java.lang.String">
+		<fieldDescription><![CDATA[@date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="79" forecolor="#9900CC" backcolor="#00CEB1" uuid="86ca7885-181e-4b01-b3e6-a75b7a5b5d00"/>
+				<textElement textAlignment="Center">
+					<font size="50"/>
+				</textElement>
+				<text><![CDATA[SESSIONS]]></text>
+			</staticText>
+			<frame>
+				<reportElement mode="Opaque" x="476" y="0" width="79" height="79" uuid="bb9e21a4-3ffd-4d89-9393-cac395f31189"/>
+			</frame>
+			<image>
+				<reportElement mode="Opaque" x="476" y="0" width="79" height="79" backcolor="#006666" uuid="95f6ce20-61d2-4b47-9310-450b272f2fdf"/>
+				<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab2-5/img/BuzzGazz.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="73" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="73" backcolor="#006666" uuid="8cae6739-d7d1-45d3-a567-4da196ae2aca"/>
+				<image>
+					<reportElement x="432" y="0" width="123" height="46" uuid="9611080d-1a34-448f-b018-a6a36d75d606"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/borderTopRight.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="98" y="26" width="105" height="47" forecolor="#FF0000" uuid="45873479-7c74-48f2-ab35-feb32cd586ca"/>
+					<textElement>
+						<font size="24"/>
+					</textElement>
+					<text><![CDATA[@film]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="253" y="6" width="88" height="20" forecolor="#CD0000" uuid="82447933-9f12-4c6f-849b-9ec32853888c"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<text><![CDATA[@time]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="387" y="26" width="73" height="20" forecolor="#9B0000" uuid="f68bf65b-0477-44b8-ae3e-0e5ebce5646b"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<text><![CDATA[@date]]></text>
+				</staticText>
+				<image>
+					<reportElement x="70" y="58" width="69" height="15" uuid="c5da061c-3efa-4b95-a9bd-4305985d7830"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="125" y="58" width="118" height="15" uuid="2aec7ed3-ca27-443d-ba74-9206c840d24b"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="177" y="58" width="92" height="15" uuid="c6133745-4fcf-41b0-8c72-8edf705ad6b9"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="228" y="58" width="67" height="15" uuid="6d87c64b-ccf8-4f02-ad05-b29020008ac9"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="282" y="58" width="75" height="15" uuid="2a8cf617-f9ea-4a0f-bd56-1e3b884b17ea"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="337" y="58" width="74" height="15" uuid="8e0a8d9d-04fc-44c4-a093-750b5c7ac21d"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="387" y="58" width="73" height="15" uuid="13773672-41dc-4cf1-b71f-167030597cb8"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="437" y="58" width="118" height="15" uuid="51cc6314-648b-4ee7-bda5-a0b64ea4a916"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="488" y="58" width="67" height="15" uuid="fa78d082-b16a-4485-9660-990263e0290e"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<frame>
+					<reportElement mode="Opaque" x="510" y="36" width="45" height="37" backcolor="#00CEB1" uuid="0691af12-0121-46f3-84f1-7c4209c32ae2"/>
+				</frame>
+				<image>
+					<reportElement x="0" y="0" width="222" height="73" forecolor="#FF0000" uuid="8966f49a-5129-40ce-8432-3bb6b6095fdb"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/BorderTopLeft.png"]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="234" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="476" y="0" width="79" height="125" backcolor="#006666" uuid="650594f7-ed56-405a-8b8b-66a1ba466ec6"/>
+			</frame>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="234" backcolor="#006666" uuid="9f69b82c-0ca2-49cc-8ae0-8e31456ee984"/>
+				<textField>
+					<reportElement x="49" y="78" width="456" height="60" forecolor="#FF0000" uuid="4e3bcddf-98ba-45e2-b00a-1035f2d658e8"/>
+					<textElement>
+						<font size="20"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{film}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="243" y="138" width="127" height="53" forecolor="#CD0000" uuid="4a5e4e6b-9223-449c-a91b-b69b785f8d48"/>
+					<textElement>
+						<font size="25"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{time}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="370" y="138" width="129" height="23" forecolor="#9B0000" uuid="9fc68a70-706c-4cf5-96fa-6998f5828a16"/>
+					<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="70" y="32" width="55" height="18" forecolor="#9B0032" uuid="904838f3-2b87-43af-9c31-9e94dd4b2164"/>
+					<textElement>
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{COLUMN_NUMBER}]]></textFieldExpression>
+				</textField>
+				<image>
+					<reportElement x="49" y="0" width="125" height="32" uuid="307268f2-4044-4421-ba96-9f4843a1ce4e"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderTop.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="170" y="0" width="125" height="32" uuid="7e1bfa1e-c660-4bab-8f78-63a6fc463941"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderTop.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="290" y="0" width="125" height="32" uuid="c5cdb179-95a5-4cd5-8c13-93097060ffcc"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderTop.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="411" y="0" width="125" height="32" uuid="7b6fd3af-4035-426b-9124-9a12ab4dcca3"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderTop.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="33" y="202" width="118" height="32" uuid="98eb08be-e175-4634-a70f-bdf2a88d9ca7"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="151" y="202" width="118" height="32" uuid="f583af41-85c8-4aef-b9bc-3261ff00eb16"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="269" y="202" width="118" height="32" uuid="c99915e5-6b3e-4c9a-8db4-df2c1398a376"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="387" y="202" width="118" height="32" uuid="ef8f494c-2a9a-463e-92bd-5928d12687c2"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="437" y="202" width="118" height="32" uuid="7c2e5d20-0917-4d1f-9812-f61a214b68d8"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/columnBorderLow.png"]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="0" y="0" width="125" height="234" uuid="67a135d3-029a-4fa3-9959-5e4e8c059ac3"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/borderLeft.png"]]></imageExpression>
+				</image>
+				<image isUsingCache="true">
+					<reportElement x="499" y="0" width="56" height="234" uuid="3a8e4a55-e3f9-4059-982b-14b8c5140d13"/>
+					<imageExpression><![CDATA["/Users/romanpozdnakov/Desktop/OOPjava/lab8/img/borderRight.png"]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="1" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="22" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="21" backcolor="#00CEB1" uuid="b73db320-2a47-4456-8236-40e901e63913"/>
+				<textField>
+					<reportElement x="282" y="1" width="88" height="20" forecolor="#9900CC" uuid="bae68ffd-cdf7-48a8-b35b-6d7d5dd661eb"/>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="253" y="1" width="29" height="20" forecolor="#9900CC" uuid="80c9a4aa-1cad-446a-b27f-698db26f77e9"/>
+					<text><![CDATA[page:]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
