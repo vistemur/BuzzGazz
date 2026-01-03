@@ -91,8 +91,3 @@ raw data saved to database folder
 logs collected with [log4j](https://github.com/apache/logging-log4j2)
 
 reports are generated with [jasper](https://github.com/Jaspersoft/jasperreports)
-
-## Search showcase
-
-<img width="779" height="557" alt="search1" src="https://github.com/user-attachments/assets/758fff7b-7c36-4e17-861f-e7f5ca6a6b50" />
-<img width="779" height="557" alt="search2" src="https://github.com/user-attachments/assets/03a3bc04-0e29-47f1-92c7-c681ee3e48dd" />
